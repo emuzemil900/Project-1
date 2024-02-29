@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="nojs">
 <head>
+  <title>HTML Form Elements</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 1</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen" href="css/_normalize-form.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-  <script src="script.js" async></script>
 </head>
 <body>
-  <header>
-    <h1>Tree Scouts</h1>
-  </header>
-  <main>
-    <h2>The world's largest scouting organization catering to responsible adults.</h2>
-    <section id="signup">
-      <form id="signup-form" action="#" autocomplete="on">
-        <div>
-          <fieldset>
-            <h3>Enroll here</h3>
-            <div class="fieldset-wrapper">
-              <label for="full-name">Full Name: </label>
-              <input type="text" id="full-name" name="full-name" placeholder="John Doe" autocomplete="on" required>
-            </div>
-            <div>
-              <label for="email">Email Address: </label>
-              <input type="email" id="email" name="email" placeholder="jdoe1@gmail.com" autocomplete="on" required>
-            </div>
-            <div>
-              <label for="password">Password: </label>
-              <input type="password" id="password" name="password" placeholder="Create a password" required>
-            </div>
-            <div>
-              <label for="phone-number">Phone Number: </label>
-              <input type="number" id="phone-number" name="phone-number" placeholder="(555) 555-5555" autocomplete="on" required>
-            </div>
-            <div>
-              <label for="date-of-birth">Date of Birth: </label>
-              <input type="date" id="date-of-birth" name="date-of-birth" required>
-            </div>
-            <input type="submit" name="submit" id="submit" value="Submit">
-          </fieldset>
-        </div>
-      </form>
-    </section>
-  </main>
+<main id="content">
+  <form method="get" action="#null">
+    <h1>Secret Diabetes Newsletter</h1>
+    <p>
+      Sign up and learn 5 secrets to fight Diabetes!
+    </p>
+    <div id="space">
+    </div>
+    <ol>
+      <li id="input-email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$">
+      </li>
+      <li id="input-age-verification">
+        <input type="checkbox" id="age-verification" name="age-verification" value="18">
+        <label for="age-verification">I am over 18 years old</label>
+      </li>
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Subscribe">
+      </li>
+    </ol>
+  </form>
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
