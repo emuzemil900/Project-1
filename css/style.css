@@ -1,0 +1,111 @@
+:root {
+  --primary-color: rgb(140, 26, 155);
+  --secondary-color: rgb(241, 241, 241);
+  --text-color: rgb(21, 31, 31);
+}
+
+body {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+header, main{
+  padding-inline: 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #f52828, #3936fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  line-height: 1.8rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+}
+
+form {
+  padding-inline: 0.6rem;
+}
+
+fieldset {
+  padding: 1rem;
+  border-image: linear-gradient(225deg, #f52828, #3936fc);
+  border-image-slice: 1;
+  border-width: 0.1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  border-radius: 3px;
+  background-color: #cccccc;
+  color: var(--text-color);
+  border: none;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin-top: 0.5rem;
+  background-color: var(--primary-color);
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(83, 15, 92);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: rgb(140, 26, 155);
+    --secondary-color: rgb(21, 31, 31);
+    --text-color: rgb(231, 227, 227);
+  }
+
+  input {
+    background-color: #555555;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    width: 40rem;
+  }
+}
