@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: montserrat, Arial, Helvetica, serif;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
   background-color: var(--secondary-color);
   color: var(--text-color);
   margin: 0;
@@ -61,7 +61,7 @@ label {
 }
 
 input {
-  font-family: montserrat, Arial, Helvetica, serif;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
   width: 100%;
   padding: 0.6rem;
   margin-bottom: 0.8rem;
@@ -75,7 +75,7 @@ input {
 input[type="submit"] {
   margin-top: 0.5rem;
   background-color: var(--primary-color);
-  font-family: montserrat, Arial, Helvetica, serif;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #fff;
   border: none;
