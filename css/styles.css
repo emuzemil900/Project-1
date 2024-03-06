@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgb(140, 26, 155);
-  --secondary-color: rgb(241, 241, 241);
+  --primary-color: rgb(165, 42, 42);
+  --secondary-color: rgb(152, 251, 152);
   --text-color: rgb(21, 31, 31);
 }
 
@@ -90,8 +90,8 @@ input[type="submit"]:hover {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: rgb(140, 26, 155);
-    --secondary-color: rgb(21, 31, 31);
+    --primary-color: rgb(165, 42, 42);
+    --secondary-color: rgb(152, 251, 152);
     --text-color: rgb(231, 227, 227);
   }
 
