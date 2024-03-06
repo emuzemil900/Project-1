@@ -21,7 +21,7 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
-  background: linear-gradient(45deg, #f52828, #3936fc);
+  background: linear-gradient(60deg, #f52828, #33c22f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -50,7 +50,7 @@ form {
 
 fieldset {
   padding: 1rem;
-  border-image: linear-gradient(225deg, #f52828, #3936fc);
+  border-image: linear-gradient(210deg, #f52828, #33c22f);
   border-image-slice: 1;
   border-width: 0.1rem;
 }
